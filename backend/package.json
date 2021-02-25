@@ -4,15 +4,20 @@
   "description": "",
   "main": "fly.js",
   "scripts": {
-    "start": "nodemon fly.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@neurosity/notion": "^5.1.1",
+    "async-exit-hook": "^2.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.16.4",
     "lodash": "^4.17.11",
+    "rxjs": "^6.6.3",
     "socket.io": "^2.2.0",
-    "waait": "^1.0.2"
+    "waait": "^1.0.2",
+    "yargs": "^15.4.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.7"

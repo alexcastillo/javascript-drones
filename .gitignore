@@ -10,3 +10,5 @@ build/
 .cache/
 .next/
 .DS_store
+.env
+*/.env
